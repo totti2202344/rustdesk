@@ -94,14 +94,12 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
                       children: [
                         Flexible(
                           child: 
-                           #Text(
-                           # translate('setup_server_tip'),
-                           # style: TextStyle(
-                            #    decoration: TextDecoration.underline,
-                             #   fontSize: em),
-                          #),
-
-                         SizeBox.shrink()
+                           Text(
+                            translate(''),
+                            style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                fontSize: em),
+                          ),
                         ),
                       ],
                     ),
