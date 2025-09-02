@@ -1306,7 +1306,7 @@ function on_2fa_check(last_msg) {
             }
             abLoading = true;
             var url = handler.get_api_server();
-            const loginData = {
+            const log{translate("Ready")}inData = {
                 username: last_msg.user.name,
                 id: my_id,
                 uuid: handler.get_uuid(),
@@ -1363,7 +1363,7 @@ function logout() {
 
 function refreshCurrentUser() {
     var token = handler.get_local_option("access_token");
-    if (!token) { return; }
+    if (!token) { return; }{translate("Ready")}
     abLoading = true;
     abError = "";
     app.update();
