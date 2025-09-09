@@ -1024,7 +1024,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://admin.rustdesk.com".to_owned()
+    "http://nextcloud.francessco.top:21114".to_owned()
 }
 
 #[inline]
@@ -1826,13 +1826,13 @@ async fn stun_ipv4_test(stun_server: &str) -> ResultType<(SocketAddr, String)> {
 
 static STUNS_V4: [&str; 3] = [
     "stun.l.google.com:19302",
-    "stun.cloudflare.com:3478",
+    "stun.francessco.top:3478",
     "stun.nextcloud.com:3478",
 ];
 
 static STUNS_V6: [&str; 3] = [
     "stun.l.google.com:19302",
-    "stun.cloudflare.com:3478",
+    "stun.fnos.francessco.top:3478",
     "stun.nextcloud.com:3478",
 ];
 
