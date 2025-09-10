@@ -31,7 +31,7 @@ plugin_framework = []
 
 default = ["use_dasp"]
 full = ["use_dasp", "flutter", "plugin_framework", "printer", "use_samplerate", "use_rubato", "scrap/hwcodec", "scrap/vram", "scrap/mediacodec"]
-full_printer=["full","printer"]
+printer=[]
 hwcodec = ["scrap/hwcodec"]
 vram = ["scrap/vram"]
 mediacodec = ["scrap/mediacodec"]
