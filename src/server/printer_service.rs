@@ -6,7 +6,7 @@ use std::{
     time::Duration,
 };
 
-pub const NAME: &'static str = "remote_printer";
+pub const NAME: &'static str = "remote-printer";
 
 const LIB_NAME_PRINTER_DRIVER_ADAPTER: &str = "printer_driver_adapter";
 
