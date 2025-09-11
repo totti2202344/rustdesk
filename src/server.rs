@@ -144,7 +144,10 @@ pub fn new() -> ServerPtr {
                 )));
             }
             Err(e) => {
-                log::error!("printer service init failed: {}", e);
+                log::error!("printer service init failed(debug): {:?}", e);
+                for cause in e.chain() {
+                    log::error!("caused by: {}", cause);
+                  }
             }
         }
     }
